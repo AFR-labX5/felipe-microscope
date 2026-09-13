@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Microscopy Journal — Felipe</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f7f5ef;
+      color: #18332d;
+    }
+
+    header {
+      height: 64px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0 40px;
+      background: white;
+      border-bottom: 1px solid #ddd;
+    }
+
+    .logo {
+      font-size: 20px;
+      font-weight: bold;
+    }
+
+    nav a {
+      margin-left: 28px;
+      text-decoration: none;
+      color: #18332d;
+      font-size: 14px;
+    }
+
+    nav a.active {
+      border-bottom: 3px solid #477c6c;
+      padding-bottom: 8px;
+    }
+
+    main {
+      max-width: 1000px;
+      margin: 0 auto;
+      padding: 55px 30px;
+    }
+
+    h1 {
+      font-family: Georgia, serif;
+      font-size: 42px;
+      margin-bottom: 8px;
+    }
+
+    .subtitle {
+      color: #64746f;
+      font-size: 17px;
+      margin-bottom: 45px;
+    }
+
+    .entry {
+      display: flex;
+      align-items: center;
+      gap: 24px;
+      padding: 22px 0;
+      border-bottom: 1px solid #ddd;
+      cursor: pointer;
+    }
+
+    .entry img {
+      width: 130px;
+      height: 90px;
+      object-fit: cover;
+      border-radius: 8px;
+    }
+
+    .entry-content {
+      flex: 1;
+    }
+
+    .entry-title {
+      font-family: Georgia, serif;
+      font-size: 21px;
+      margin-bottom: 7px;
+    }
+
+    .entry-description {
+      color: #687873;
+      font-size: 14px;
+      line-height: 1.5;
+      margin-bottom: 10px;
+    }
+
+    .tag {
+      display: inline-block;
+      background: #dcebe3;
+      color: #315f50;
+      padding: 5px 10px;
+      border-radius: 20px;
+      font-size: 12px;
+    }
+
+    .date {
+      color: #888;
+      font-size: 13px;
+      margin-right: 15px;
+    }
+
+    .arrow {
+      font-size: 22px;
+      color: #55756b;
+    }
+
+    .view-all {
+      display: inline-block;
+      margin-top: 30px;
+      color: #315f50;
+      text-decoration: none;
+      font-weight: bold;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <div class="logo">🔬 Felipe</div>
+
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">Explore</a>
+    <a href="#" class="active">Journal</a>
+    <a href="#">About</a>
+  </nav>
+</header>
+
+
+<main>
+
+  <h1>Our Microscopy Journal</h1>
+
+  <div class="subtitle">
+    A place to record my discoveries, questions and learning.
+  </div>
+
+
+  <!-- Entry 1 -->
+  <div class="entry">
+
+    <img src="images/mold.jpg" alt="Mold">
+
+    <div class="entry-content">
+
+      <div class="entry-title">
+        Mold on bread
+      </div>
+
+      <div class="entry-description">
+        Parecen perlas de boba. Parecían gérmenes.
+	They look like boba pearls. They look like germs.
+      </div>
+
+      <span class="tag">Mold</span>
+
+    </div>
+
+    <div class="date">
+      Sept 13, 2026
+    </div>
+
+    <div class="arrow">
+      →
+    </div>
+
+  </div>
+
+
+  <!-- Entry 2 -->
+  <div class="entry">
+
+    <img src="images/fabric.jpg" alt="Plant leaf">
+
+    <div class="entry-content">
+
+      <div class="entry-title">
+        Plant leaf surface
+      </div>
+
+      <div class="entry-description">
+        Es como un cabello entrelazado con un patron.
+        It's like hair  with a pattern.
+      </div>
+
+      <span class="tag">Fabrics</span>
+
+    </div>
+
+    <div class="date">
+      Sept 13, 2026
+    </div>
+
+    <div class="arrow">
+      →
+    </div>
+
+  </div>
+
+
+  <a class="view-all" href="#">
+    → View all entries
+  </a>
+
+</main>
+
+</body>
+</html>
